@@ -1,0 +1,66 @@
+
+.form {
+  width: calc(100% - 32px);
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 32px;
+
+  background-color: #ffffff;
+  color: #111827;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.form p {
+  color: #6b7280;
+  text-align: center;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.campo input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #111827;
+  font: inherit;
+}
+
+.campo input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.botao {
+  padding: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #1d4ed8;
+}
